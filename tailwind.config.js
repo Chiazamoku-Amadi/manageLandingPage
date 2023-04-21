@@ -2,6 +2,9 @@
 module.exports = {
   content: ["./*.html"],
   theme: {
+    fontFamily: {
+      vietnam: ["Be Vietnam Pro"],
+    },
     screens: {
       sm: "440px",
       md: "768px",
