@@ -16,3 +16,31 @@
       }
     }
   }
+
+  body {
+    background-image: url("../img/bg-tablet-pattern.svg");
+    background-repeat: no-repeat;
+    background-size: 750px;
+    background-position: 115% -13%;
+  }
+
+  #cta {
+    background-image: url(../img/bg-simplify-section-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: -200% 100%;
+  }
+
+  @media(max-width: 576px) {
+    body {
+      background-image: url("../img/bg-tablet-pattern.svg");
+      background-repeat: no-repeat;
+      background-size: 400px;
+      background-position: -60% -2%;
+    }
+  
+    #cta {
+      background-image: url(../img/bg-simplify-section-mobile.svg);
+      background-repeat: no-repeat;
+      background-position: 0% 0%;
+    }  
+  }
