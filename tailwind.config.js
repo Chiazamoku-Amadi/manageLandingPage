@@ -23,6 +23,9 @@ module.exports = {
         veryLightGray: "hsl(0, 0%, 98%)",
       }
     },
+    variants: {
+      fill: ['hover'],
+    },
   },
   plugins: [],
 }
