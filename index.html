@@ -32,17 +32,20 @@
             <a href="" class="hidden md:block p-3 px-6 mb-1 text-white rounded-full bg-brightRed baseline font-medium text-sm hover:bg-brightRedLight shadow-lg shadow-red-400">Get Started</a>
             
             <!--Hamburger Menu-->
-            <button id="menu-btn" class="block md:hidden hamburger"><i class="fa-solid fa-bars"></i></button>
+            <button class="block md:hidden hamburger">
+                <i class="fa-solid fa-bars fa-lg open"></i>
+                <i class="fa-solid fa-xmark fa-lg close"></i>
+            </button>
         </div>
 
         <!--Mobile Menu-->
         <div class="flex md:hidden p-6">
-            <div id="menu" class="hidden absolute left-6 right-6 flex flex-col items-center justify-center gap-6 py-8 font-bold bg-white shadow-lg">
-                <a href="#" class="text-darkBlue hover:text-darkGrayishBlue text-sm">Pricing</a>
-                <a href="#" class="text-darkBlue hover:text-darkGrayishBlue text-sm">Product</a>
-                <a href="#" class="text-darkBlue hover:text-darkGrayishBlue text-sm">About Us</a>
-                <a href="#" class="text-darkBlue hover:text-darkGrayishBlue text-sm">Careers</a>
-                <a href="#" class="text-darkBlue hover:text-darkGrayishBlue text-sm">Community</a>
+            <div class="hidden menu absolute left-6 right-6 flex flex-col items-center justify-center gap-6 py-8 font-bold bg-white shadow-lg">
+                <a href="#" class="text-darkBlue focus:text-darkGrayishBlue text-sm">Pricing</a>
+                <a href="#" class="text-darkBlue focus:text-darkGrayishBlue text-sm">Product</a>
+                <a href="#" class="text-darkBlue focus:text-darkGrayishBlue text-sm">About Us</a>
+                <a href="#" class="text-darkBlue focus:text-darkGrayishBlue text-sm">Careers</a>
+                <a href="#" class="text-darkBlue focus:text-darkGrayishBlue text-sm">Community</a>
             </div>
         </div>
     </nav>
@@ -171,7 +174,7 @@
     </section>
     
     <!--CTA-->
-    <section id="cta" class="bg-brightRed mt-24 px-4 md:px-42 py-16">
+    <section id="cta" class="cta bg-brightRed mt-24 px-4 md:px-42 py-16">
         <div class="container mx-auto flex flex-col md:flex-row space-y-12 md:space-y-0 items-center justify-center w-full">
             <h2 class="font-bold text-white text-3xl md:text-4xl text-center md:text-left self-start md:w-1/2">Simplify how your team works today.</h2>
             <div class="flex justify-end md:w-1/2">
@@ -229,5 +232,9 @@
             <p class="text-veryLightGray text-xs">Copyright &copy; 2023. All Rights Reserved</p>
         </div>
     </footer>
+
+    <!--Script-->
+    <script src="js/script.js"></script>
+    
 </body>
 </html>
